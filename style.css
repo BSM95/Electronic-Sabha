@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tajawal, sans-serif;
+}
+
+section {
+    padding: 3.5rem 2rem;
+}
+
+.box {
+}
+
+.heading {
+    font-size: 1.6rem;
+    width: 80%;
+    border: 1px solid #000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.counter {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.count {
+    margin: 0 auto;
+    margin-top: 3.5rem;
+    display: block;
+    font-family: inherit;
+    width: 120px;
+    height: 120px;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background: transparent;
+}
+
+.clear {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0.575rem;
+    font-size: 1rem;
+    font-family: inherit;
+    background: transparent;
+}
