@@ -1,14 +1,14 @@
-const counter = document.querySelector('.counter');
-const countBtn = document.querySelector('.count');
+const displayArea = document.querySelector('.display-area');
+const increament = document.querySelector('.increament');
 const clear = document.querySelector('.clear');
-let num = 0;
+let sum = 0;
 
-countBtn.addEventListener('click', function(){
-    num++;
-    counter.textContent = num;
+increament.addEventListener('click', function(){
+    sum++;
+    displayArea.textContent = sum + '';
 })
 
 clear.addEventListener('click', function(){
-    num = 0;
-    counter.textContent = num;
+    sum = 0;
+    displayArea.textContent = sum + '';
 })
