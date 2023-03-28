@@ -11,45 +11,55 @@ body {
 }
 
 section {
-    padding: 3.5rem 2rem;
-}
-
-.box {
+    min-height: 100vh;
+    background: #f1f5f8;
 }
 
 .heading {
-    font-size: 1.6rem;
-    width: 80%;
-    border: 1px solid #000;
-    margin: 0 auto;
     text-align: center;
-}
-
-.counter {
-    font-size: 4rem;
-    font-weight: 500;
-    margin-top: 3rem;
-    text-align: center;
-}
-
-.count {
-    margin: 0 auto;
-    margin-top: 3.5rem;
-    display: block;
-    font-family: inherit;
-    width: 120px;
-    height: 120px;
+    background-color: #6C0BA9;
+    color: #fff;
+    padding: 1rem;
     font-size: 2rem;
-    border-radius: 50%;
-    border: 2px solid #000;
-    background: transparent;
 }
 
-.clear {
-    width: 100%;
-    margin-top: 2rem;
-    padding: 0.575rem;
-    font-size: 1rem;
+.display-area {
+    font-size: 12rem;
+    text-align: center;
+    margin-top: 5rem;
     font-family: inherit;
-    background: transparent;
+    font-weight: #222222;
+}
+
+.btns {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12rem;
+}
+
+button {
+    padding: 1rem;
+    border-color: transparent;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    font-family: inherit;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+.clear {
+    background: #FF3131;
+}
+
+.increament {
+    background: #00FF00;
+    font-size: 3rem;
+}
+
+button:hover {
+    scale: 1.1;
 }
