@@ -35,10 +35,10 @@ section {
 button {
     padding: 1rem;
     border-color: transparent;
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-align: center;
     color: #fff;
     font-family: inherit;
@@ -48,10 +48,15 @@ button {
 .clear {
     background: #FF3131;
 }
+
 .increament {
     background: #00FF00;
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 button:hover {
     scale: 1.1;
 }
