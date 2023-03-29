@@ -5,16 +5,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Tajawal, sans-serif;
 }
-
 section {
     min-height: 100vh;
     background: #f1f5f8;
 }
-
 .heading {
     text-align: center;
     background-color: #6C0BA9;
@@ -22,7 +19,6 @@ section {
     padding: 1rem;
     font-size: 2rem;
 }
-
 .display-area {
     font-size: 12rem;
     text-align: center;
@@ -30,14 +26,12 @@ section {
     font-family: inherit;
     font-weight: #222222;
 }
-
 .btns {
     margin-top: 4rem;
     display: flex;
     justify-content: space-around;
     margin-top: 12rem;
 }
-
 button {
     padding: 1rem;
     border-color: transparent;
@@ -54,12 +48,10 @@ button {
 .clear {
     background: #FF3131;
 }
-
 .increament {
     background: #00FF00;
     font-size: 3rem;
 }
-
 button:hover {
     scale: 1.1;
 }
