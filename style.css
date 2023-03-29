@@ -48,7 +48,6 @@ button {
 .clear {
     background: #FF3131;
 }
-
 .increament {
     background: #00FF00;
     font-size: 3rem;
@@ -56,7 +55,6 @@ button {
     justify-content: center;
     align-items: center;
 }
-
 button:hover {
     scale: 1.1;
 }
